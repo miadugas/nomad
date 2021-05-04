@@ -1,4 +1,4 @@
-# Nomad E-Comm
+# Nouvelle E-Comm
 
 <hr>
 
@@ -17,7 +17,7 @@ React,
 <hr>
 
 ### Additional Styling & Non-Technical Frameworks
-Bulma, Node SASS
+Bulma, Node SASS 4.14.1
 
 
 <hr>
