@@ -1,23 +1,21 @@
 import React, { useContext } from 'react';
-// import { isInCart } from '../../helpers';
-// import { CartContext } from '../../context/cart-context'; 
+import { isInCart } from '../../helpers';
+import { CartContext } from '../../context/cart-context'; 
 import { withRouter } from 'react-router-dom';
 import './featured-product.styles.scss';
 
-//const FeaturedProduct = (props) => {
-const FeaturedProduct = (product) => {
+const FeaturedProduct = (props) => {
   const { 
     title, 
     imageUrl, 
     price,
     history, 
-    id 
-    // description 
-  // } = props;
-} = product;
-  //const product = { title, imageUrl, price, id,  description };
-  //const { addProduct, cartItems, increase } = useContext(CartContext);
-  //const itemInCart = isInCart(product, cartItems);
+    id,
+    description 
+  } = props;
+  const product = { title, imageUrl, price, id,  description };
+  const { addProduct, cartItems, increase } = useContext(CartContext);
+  const itemInCart = isInCart(product, cartItems);
   return (
     <div className='featured-product'>
       <div className='featured-image' 
@@ -28,7 +26,7 @@ const FeaturedProduct = (product) => {
       <div className='name-price'>
         <h3>{title}</h3>
         <p>$ {price}</p>
-        {/* { 
+        { 
           !itemInCart && 
           <button 
             className='button is-black nomad-btn'
@@ -42,7 +40,7 @@ const FeaturedProduct = (product) => {
             id='btn-white-outline'
             onClick={()=> increase(product)}>
               ADD MORE</button>
-        } */}
+        }
         
       </div>
     </div>

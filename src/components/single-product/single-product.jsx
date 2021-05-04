@@ -38,21 +38,21 @@ const SingleProduct = ({ match, history: { push } }) => {
           </div>
           <div className='add-to-cart-btns'>
             {
-              // !itemInCart &&
+              !itemInCart &&
               <button 
                 className='button is-white nomad-btn' 
                 id='btn-white-outline'
-                // onClick={() => addProduct(product)}
+                onClick={() => addProduct(product)}
                 >
                   ADD TO CART
               </button> 
             }
             {
-              //itemInCart &&
+              itemInCart &&
               <button 
                 className='button is-white nomad-btn' 
                 id='btn-white-outline'
-                //onClick={()=> increase(product)}
+                onClick={()=> increase(product)}
                 >
                   ADD MORE
               </button>
