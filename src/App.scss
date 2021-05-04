@@ -9,63 +9,63 @@
 .app {
     position: relative;
     min-height: 100vh;
-  }
-  
-  img {
+}
+
+img {
     width: 100%;
-  }
-  
-  .nomad-container {
+}
+
+.nomad-container {
     width: 60%;
     margin: 0 auto;
-  }
-  
-  #shop-now {
+}
+
+#shop-now {
     font-weight: 600; 
     &:hover {
-      background-color: #606060;
+    background-color: #606060;
     }
-  }
-  
+}
+
   // Featured products section
-  .featured-collection {
+.featured-collection {
     margin-top: 6rem;
-  
+
     .featured-section-title {
-      font-size: 2rem;
+    font-size: 2rem;
     }
-  
+
     .featured-image {
-      cursor: pointer;
+    cursor: pointer;
     }
-  
+
     @media(min-width: 1024px) {
-      .products {
+    .products {
         display: flex;
         justify-content: space-between;
         padding: 5px;
-  
+
         .featured-product {
-          margin: 10px;
+        margin: 10px;
         }
-      }
     }
-  }
-  
+    }
+}
+
   // single product page 
-  .name-price {
+.name-price {
     p {
-      font-size: 1.2rem;
-      font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bold;
     }
-  
+
     h3 {
-      font-size: 1rem;
+    font-size: 1rem;
     }
-  }
-  
+}
+
   //black button styles
-  .nomad-btn {
+.nomad-btn {
     display: block;
     width: 100%;
     line-height: 1.4;
@@ -75,71 +75,71 @@
     margin-top: 0;
     margin-bottom: 10px;
     min-height: 44px;
-  }
-  
+}
+
   //input styles
-  .nomad-input {
+.nomad-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 1rem;
-  }
-  
-  form {
+}
+
+form {
     padding: 2rem;
     text-align: center;
     input[type=text],
     input[type=email],
     input[type=password]{
-      width: 60%;
+    width: 60%;
     }
-  
+
     .submit-btn {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
     }
-  
+
     .submit {
-      width: 200px;
+    width: 200px;
     }
-  }
-  
-  .form-error {
+}
+
+.form-error {
     border: 1px solid red;
-  }
-  
-  ::placeholder {
+}
+
+::placeholder {
     color: #606060;
     font-size: 16px;
-  }
-  
-  #btn-white-outline {
+}
+
+#btn-white-outline {
     border: 1px solid grey;
     margin-bottom: 1rem;
-  }
-  #buy-it-now-btn {
+}
+#buy-it-now-btn {
     &:hover {
-      background-color: #606060;
+    background-color: #606060;
     }
-  }
-  
-  @media(min-width: 1024px) {
+}
+
+@media(min-width: 1024px) {
     form {
-      width: 60%;
-      margin: 0 auto;
-  
-      input[type=text],
-      input[type=email],
-      input[type=password]{
+    width: 60%;
+    margin: 0 auto;
+
+    input[type=text],
+    input[type=email],
+    input[type=password]{
         width: 65%;
-      } 
+    } 
     }
-  }
-  
-  .error {
+}
+
+.error {
     border: 1px solid red;
-  }
-  
-  .error-message {
+}
+
+.error-message {
     color: red;
     font-size: 1.5rem;
-  }
+}
