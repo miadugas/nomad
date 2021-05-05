@@ -6,8 +6,7 @@ import Total from './total';
 import './cart-page.styles.scss';
 
 const CartPage = () => {
-  const { cartItems, itemCount, total, increase, decrease } = useContext(CartContext);
-  //const { cartItems, itemCount, total, increase, decrease, removeProduct, clearCart } = useContext(CartContext);
+const { cartItems, itemCount, total, increase, decrease, removeProduct, clearCart } = useContext(CartContext);
   const funcs = { increase, decrease, removeProduct }
   return (
     <Layout>

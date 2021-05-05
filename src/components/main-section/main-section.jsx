@@ -19,7 +19,7 @@ const MainSection = ({ history }) => {
           the inside is lined and the base has four metal feet. This is a high quality, 
           must-have bag to add to any alternative and Gothic inspired accessory collection. 
           </p>
-          <button className='button is-black' id='shop-now' onClick={()=> history.push('/product/1')}>
+          <button className='button is-black' id='shop-now' onClick={()=> history.push('/product/11')}>
             ETERNAL BAG
           </button>
         </div>
