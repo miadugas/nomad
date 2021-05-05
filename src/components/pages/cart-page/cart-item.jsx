@@ -1,7 +1,6 @@
 import React from 'react';
 import { PlusCircleIcon, MinusCircleIcon, TrashIcon } from '../../icons';
 
-//const CartItem = (product) => {
 const CartItem = (props) => {
 const { title, imageUrl, price, quantity, id, description, increase, decrease, removeProduct } = props;
 const product = { title, imageUrl, price, quantity, id, description };
