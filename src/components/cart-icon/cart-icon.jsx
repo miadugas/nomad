@@ -8,9 +8,10 @@ const CartIcon = ({ history }) => {
   const { itemCount, cartItems } = useContext(CartContext);
   console.log('CartItems:', cartItems);
   return (
-    <div className='cart-container' onClick={() => history.push('/cart')}>
+    <div className='cart-container' onClick={() => history.push('/cart')}
+    >
       <img src={shoppingBag} alt='shopping-cart-icon' />
-      <span className='cart-count'> 5 </span>
+      {/* <span className='cart-count'> 5 </span> */}
       {
         itemCount > 0 ? <span className='cart-count'> { itemCount } </span> : null
       }

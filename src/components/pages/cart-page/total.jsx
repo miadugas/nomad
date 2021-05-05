@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
-const Total = ({ itemCount, total, history, clearCart }) => {
+const Total = ({ itemCount, total, history }) => {
   return (
     <div className='total-container'>
       <div className='total'>

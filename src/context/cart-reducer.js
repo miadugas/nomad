@@ -48,20 +48,20 @@ const cartReducer = (state, action) => {
         cartItems: [...state.cartItems],
         ...sumItems(state.cartItems),
       }
-    case 'REMOVE_ITEM':
-      const newCartItems = state.cartItems.filter(item => item.id !== action.payload.id);
-      return {
-        ...state,
-        cartItems: [...newCartItems],
-        ...sumItems(newCartItems), 
-      }
-    case 'CLEAR':
-      localStorage.removeItem('cart');
-      return {
-        cartItems: [],
-        itemCount: 0,
-        total: 0,
-      }    
+    // case 'REMOVE_ITEM':
+    //   const newCartItems = state.cartItems.filter(item => item.id !== action.payload.id);
+    //   return {
+    //     ...state,
+    //     cartItems: [...newCartItems],
+    //     ...sumItems(newCartItems), 
+    //   }
+    // case 'CLEAR':
+    //   localStorage.removeItem('cart');
+    //   return {
+    //     cartItems: [],
+    //     itemCount: 0,
+    //     total: 0,
+    //   }    
     default:
       return state;
   }
