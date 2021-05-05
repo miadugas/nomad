@@ -15,7 +15,7 @@ const SHOP_DATA = [
   },
   {
     id: 3,
-    title: 'Liquorbrand Ouija Round Bag',
+    title: 'Liquorbrand Ouija Board Round Bag',
     description: "Liquorbrand Ouija Bag! You will be conjuring up spirits in no time with this stunner of a handbag. This medium size round bag features an ouija board print on both sides, has a rectangular base with 4 metal feet, twin grab handles and an adjustable and detachable shoulder strap. Fully lined (plain black) with internal zip pocket. It's the perfect alternative bag to keep all your pretties... and spirits insides.",
     imageUrl: 'https://i.ibb.co/mTdJy1G/ouija-bag-69381-1610624612.jpg',
     price: 69,
@@ -74,6 +74,34 @@ const SHOP_DATA = [
     title: 'Liquorbrand Eternal Bliss Bowler Bag',
     description: 'An alternative and Gothic print of a Day of the Dead inspired, sugar skull gypsy praying the rosary over a skull. This is printed on soft satin-like fabric. The top and sides are made of faux leather, the inside is lined and the base has four metal feet. This is a high quality, must-have bag to add to any alternative and Gothic inspired accessory collection.',
     imageUrl: 'https://i.ibb.co/x5Gn7d0/eternal-bliss-bowler-06178-1602318663.jpg',
+    price: 59,
+  },
+  {
+    id: 12,
+    title: 'Liquorbrand Hula Girl Bowler Bag',
+    description: 'Instantly transport yourself to a tropical locale with this printed Hula Girl purse in blue from Liquorbrand! With an all over pattern of ukulele playing pinup girls and tropical flowers, It features embossed zipper pullers, metal feet, and their signature metal embossed logo plate. Functional side pockets keep your essentials within reach. The shoulder strap is adjustable and removable if you wish to take it from handbag to crossbody style for hands free ease.',
+    imageUrl: 'https://i.ibb.co/MZ47N61/5889.jpg',
+    price: 59,
+  },
+  {
+    id: 13,
+    title: 'Liquorbrand Tequila Bowler Bag',
+    description: 'Liquorbrand Tequila Bowler Bag! This spacious bowler bag features original artwork in monochrome colour with red highlights - a day of the dead gypsy embracing the grim reaper. Print repeated on both sides.',
+    imageUrl: 'https://i.ibb.co/7yq5fd8/6588.jpg',
+    price: 69,
+  },
+  {
+    id: 14,
+    title: 'Liquorbrand La Vida Bowler Bag',
+    description: "Liquor Brand LA VIDA Classic Bowler Bag Purse NO VALE NADA Life it's worth nothing Dia De Los Muertos Day of the Dead Punk Rockabilly bottom middle and top of bag are faux leather satin like sides foam padding embossed zipper pulls metal feet large embossed liquor brand logo on sides printed on both sides brand new in package 11 inches wide 7.5 inches high.",
+    imageUrl: 'https://i.ibb.co/LvdLHTZ/3749.jpg',
+    price: 69,
+  },
+  {
+    id: 15,
+    title: 'Liquorbrand Death Flash Bowler Bag',
+    description: "Reapers, kewpies, skulls and more adorn this gorgeous Death Flash bowler bag from Liquorbrand. This purse is made of faux leather and features quilted side panels with metal logos, foam padding, metal feet and embossed zipper pulls. It's a nice, generous size and will easily fit all of your essentials!",
+    imageUrl: 'https://i.ibb.co/wBvtYgh/6590.jpg',
     price: 59,
   },
 ];
