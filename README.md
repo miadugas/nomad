@@ -8,7 +8,11 @@
 
 <hr>
 
- <!-- ![Main View](https://github.com/miadugas/svelte_ecomm/blob/main/black_mirror.png) -->
+ ![Main View](https://github.com/miadugas/nouvelle/blob/main/nouvelle.png)
+
+ <hr>
+
+  ![Main View](https://github.com/miadugas/nouvelle/blob/main/nouvelle2.png)
 
 ## Technology Used
 React, 
