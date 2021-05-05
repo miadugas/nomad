@@ -15,7 +15,7 @@
   ![Main View](https://github.com/miadugas/nouvelle/blob/main/nouvelle2.png)
 
 ## Technology Used
-React, 
+React, Stripe
 
 
 <hr>
