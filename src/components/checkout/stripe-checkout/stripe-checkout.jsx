@@ -7,6 +7,7 @@ const StripeCheckout = () => {
   const [email, setEmail] = useState('');
   const { cartItems } = useContext(CartContext);
   const stripe = useStripe();
+  
   const handleGuestCheckout = async (e) => {
     e.preventDefault();
     const line_items = cartItems.map(item => {
@@ -21,7 +22,7 @@ const StripeCheckout = () => {
             images: [item.imageUrl], 
           }
         }
-      }
+    }
     });
 
     const response = await fetchFromAPI('create-checkout-session', {
