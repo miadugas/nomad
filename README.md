@@ -15,13 +15,13 @@
   ![Main View](https://github.com/miadugas/nouvelle/blob/main/nouvelle2.png)
 
 ## Technology Used
-React, Stripe
+React, Hooks, Context API, Node.js, Express.js, Stripe, Stripe Custom Checkout, Formik, and Firebase
 
 
 <hr>
 
 ### Additional Styling & Non-Technical Frameworks
-Bulma, Node SASS 4.14.1
+Bulma, Node SASS 4.14.1, 
 
 
 <hr>

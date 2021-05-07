@@ -47,7 +47,7 @@ const CustomCheckout = ({ shipping, cartItems, history: { push } }) => {
             line1: shipping.address
           }
         },
-        description: 'payment intent for nomad shop',
+        description: 'payment intent for ave nouvelle shop',
         receipt_email: shipping.email,
       }
 
