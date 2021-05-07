@@ -24,11 +24,11 @@ const CustomCheckout = ({ shipping, cartItems, history: { push } }) => {
 
   useEffect(() => {
     const items = cartItems.map(item => ({price: item.price, quantity: item.quantity}));
-    if (user) {
-      const savedCards = async () => {
-        try {
-          const cardsList = await fetchFromAPI('get-payment-methods', {
-            method: 'GET',
+  if (user) {
+    const savedCards = async () => {
+      try {
+        const cardsList = await fetchFromAPI('get-payment-methods', {
+          method: 'GET',
           }); 
           setCards(cardsList);
         } catch(error) {
